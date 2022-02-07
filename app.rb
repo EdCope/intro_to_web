@@ -14,8 +14,8 @@ get '/secret2' do
 end
 
 get '/cat' do
-  '<img class="fit-picture"
-     src="https://i.imgur.com/jFaSxym.png"
-     alt="Cute kitten picture">'
+  '<div style="border:10px dashed red">
+  <img src="https://i.imgur.com/jFaSxym.png">
+  </div>'
 end
 
