@@ -15,10 +15,14 @@ get '/secret2' do
   "Another Secret message, for fun"
 end
 
-get '/cat' do
+get '/random-cat' do
   @name = ["Amigo", "Misty", "Almond"].sample
   erb(:index)
 end
 
-
+get '/named-cat' do
+  p params
+  @name = params[:name]
+  erb(:index)
+end
 
