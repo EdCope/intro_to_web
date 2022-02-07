@@ -9,5 +9,6 @@ ruby '3.1.0'
 group :development, :test do
   gem "rspec"
   gem "sinatra"
+  gem "sinatra-contrib"
   gem "webrick"
 end
